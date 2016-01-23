@@ -1,0 +1,20 @@
+user_user:
+    resource: "@UserBundle/Controller/UserController.php"
+    type:     annotation
+
+user_user:
+    resource: "@UserBundle/Controller/UserController.php"
+    type:     annotation
+
+app_product:
+    resource: "@AppBundle/Controller/ProductController.php"
+    type:     annotation
+
+user:
+    resource: "@UserBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
